@@ -18,8 +18,12 @@ if (env) {
   require('dotenv').config({ path: env })
 }
 
+
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+
 let main = ['./src/site.js']
 let common = ['./src/common.js']
+let data=['./src/data.js'];
 let devtool
 
 if (isDev) {
@@ -28,6 +32,7 @@ if (isDev) {
 }
 
 let plugins = [
+  new CopyWebpackPlugin([{from: 'src/dummy.csv' ,to: 'dest'}]),
   new MiniCssExtractPlugin({ filename: '[name].[hash].css' }),
   new HtmlWebpackPlugin({
     template: './src/index.html',
@@ -55,7 +60,8 @@ if (isProd) {
 module.exports = {
   entry: {
     'main': main,
-    'common': common
+    'common': common,
+    'data': data
   },
   node: {
     fs: 'empty',
