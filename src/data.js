@@ -1,9 +1,9 @@
 module.exports=[
-    {name: "carrot", ring: "adopt", quadrant: "tools", isNew: "TRUE", description: "Blah"},
-    {name: "potato", ring: "build", quadrant: "platforms", isNew: "TRUE", description: "Blah"},
-    {name: "turnip", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "Blah"},
-    {name: "gourd", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "Blah"},
-    {name: "sprouts", ring: "adopt", quadrant: "techniques", isNew: "TRUE", description: "Blah"},
-    {name: "squash", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "Blah"},
-    {name: "pea", ring: "hold", quadrant: "languages & frameworks", isNew: "TRUE", description: "Blah"}
+    {name: "carrot", ring: "adopt", quadrant: "tools", isNew: "TRUE", description: "The carrot is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist. Carrots are a domesticated form of the wild carrot, Daucus carota, native to Europe and southwestern Asia. "},
+    {name: "potato", ring: "build", quadrant: "platforms", isNew: "TRUE", description: "The potato is a starchy, tuberous crop from the perennial nightshade Solanum tuberosum, native to the Americas. In many contexts, potato refers to the edible tuber, but it can also refer to the plant itself. Common or slang terms include tater, tattie, and spud."},
+    {name: "turnip", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "The turnip or white turnip is a root vegetable commonly grown in temperate climates worldwide for its white, fleshy taproot. The word turnip is a compound of tur- as in turned/rounded on a lathe and neep, derived from Latin napus, the word for the plant."},
+    {name: "gourd", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "Gourds include the fruits of some flowering plant species in the family Cucurbitaceae, particularly Cucurbita and Lagenaria. The term refers to a number of species and subspecies, many with hard shells, and some without."},
+    {name: "sprouts", ring: "adopt", quadrant: "techniques", isNew: "TRUE", description: "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there."},
+    {name: "squash", ring: "assess", quadrant: "techniques", isNew: "TRUE", description: "Gourds are in the same family as squashes. Pumpkins and courgette (zucchini) are types of squashes. Although squash is a fruit according to its botanical classification, it is generally considered a vegetable in food preparation."},
+    {name: "pea", ring: "hold", quadrant: "languages & frameworks", isNew: "TRUE", description: "The pea is most commonly the small spherical seed or the seed-pod of the pod fruit Pisum sativum. Each pod contains several peas, which can be green or yellow. Pea pods are botanically fruit, since they contain seeds and develop from the ovary of a flower."}
   ];

@@ -594,7 +594,7 @@ const Radar = function (size, radar) {
       .append('div')
       .classed('multiple-sheet-button-group', true)
 
-    alternativeSheetButton.append('p').text('Choose a sheet to populate radar')
+    // alternativeSheetButton.append('p').text('Choose a sheet to populate radar')
     alternatives.forEach(function (alternative) {
       alternativeSheetButton
         .append('div:a')
