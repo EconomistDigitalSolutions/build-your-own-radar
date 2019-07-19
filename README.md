@@ -29,7 +29,7 @@ Your addition must be entered as an object. See example below.
 
 >**IMPORTANT: All your object values must be strings.**
 
-Except for `name` and `description`, all other key values must show one of the options listed below for the sake of consistency.   
+Except for `name` and `description`, all other key values must match one of the options listed below for the sake of consistency.   
 
 | name          | ring    | quadrant               | isNew   | description                                             |
 |---------------|---------|------------------------|---------|---------------------------------------------------------|
