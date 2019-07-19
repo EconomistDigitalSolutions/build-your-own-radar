@@ -13,13 +13,23 @@ A library that generates an interactive radar, inspired by [thoughtworks.com/rad
 
 ## How To Use
 
-Just run it and check your `localhost:8080`. Easy peasy.
+*With npm*
+1. Clone the project and go to the main folder 
+2. Run `npm install` to install required dependencies
+3. Run `npm run dev` 
+4. Open `localhost:8080` in your browser to access the application.
 
-### Setting up your data
+## Setting up your data
 
-You can add/edit data in `/src/data.js`. 
-Your addition must be entered as an object, with keys and expected values listed below.  
->**NOTE: All your object values must be strings.**
+You can add/edit data in `/src/data.js`.  
+Your addition must be entered as an object. See example below.
+
+
+`{name: "sweet potatoes", ring: "adopt", quadrant: "tools", isNew: "FALSE", description: "Sweet potato chips >>>>> Potato chips."},`
+
+>**IMPORTANT: All your object values must be strings.**
+
+Except for `name` and `description`, all other key values must show one of the options listed below for the sake of consistency.   
 
 | name          | ring    | quadrant               | isNew   | description                                             |
 |---------------|---------|------------------------|---------|---------------------------------------------------------|
